@@ -1,0 +1,9 @@
+@import '../../SassVariables/variables';
+
+.navBar_cont{
+  width: 1280px;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  background-color: $mainBgc;
+  border: $border;
+}

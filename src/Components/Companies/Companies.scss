@@ -1,0 +1,9 @@
+@import '../../SassVariables/variables';
+
+.companies_cont{
+  width: 1080px;
+  height: 350px;
+  border-radius: 4px;
+  background-color: $greyBgc;
+  border: $border;
+}
