@@ -5,4 +5,73 @@
   height: 528px;
   background-color: $greyBgc;
   border: $border;
+display: flex;
+flex-direction: row;
+  .header_textPart{
+    margin: 96px 24px 96px 100px;
+  
+  .header_title{
+    width: 620px;
+    height: 76px;
+    font-family: ProximaNova;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    color: #131313;
+  }
+  .text1{
+    width: 620px;
+    height: 104px;
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #303030;
+    margin: 16px 0;
+  }
+  .text2{
+    width: 620px;
+    height: 26px;
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #303030;
+    margin-bottom: 48px;
+  }
+  .header_button{
+    width: 263px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: $green;
+    p{
+      width: 215px;
+      height: 19px;
+      font-family: ProximaNova;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      padding: 14px 24px 17px 24px;
+    }
+  }
+}
+.header_deliver{
+  width: 436px;
+  height: 436px;
+  margin: 52px 100px 40px 24px;
+}
 }

@@ -5,4 +5,27 @@
   height: 2677px;
   background-color: #ffffff;
   border: $border;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(auto, auto);
+  
+  .navBar_cont{
+    grid-column: 1/13;
+    grid-row: 1/2;
+  }
+
+  .header_cont{
+    grid-column: 1/13;
+    grid-row: 2/4;
+  }
+
+  .middle_cont{
+    grid-column: 1/13;
+    grid-row:4/7;
+  }
+  .footer_cont{
+    grid-column: 1/13;
+    grid-row: 8/9;
+  }
+
 }
