@@ -6,32 +6,32 @@ class CardContainer extends Component {
     return (
       <div className='flex_cont'>
         <Card
-          src='/img/piggybank.svg'
+          src='/img/cheap.svg'
           title='Kedvező ár'
           description='Az ország határain belül akár 750 Ft-tól.'
         />
         <Card
-          src='/img/shield.svg'
+          src='/img/insurance.svg'
           title='Biztosítás'
           description='A feladott küldemények minden esetben értékbiztosítással rendelkeznek.'
         />
         <Card
-          src='/img/hand.svg'
+          src='/img/cod.svg'
           title='Utánvét kezelése'
           description='Az utánvét begyűjtése után 72 órán belül hozzájutsz a pénzedhez.'
         />
         <Card
-          src='/img/bond.svg'
+          src='/img/integration.svg'
           title='Egyszerű integráció'
           description='A szállítási igényeid átadása bármilyen webshop motorba egyszerűen integrálható. Mindezek megvalósításához technikai segítséget is nyújtunk.'
         />
         <Card
-          src='/img/code.svg'
+          src='/img/invoice.svg'
           title='Átlátható adminisztrációs felület'
           description='Kövesd naprakészen csomagjaid állapotát. A nyomkövetés természetesen a vásárlóidnak is elérhető.'
         />
         <Card
-          src='/img/choose.svg'
+          src='/img/admin.svg'
           title='Átlátható számlázás'
           description='Kövesd naprakészen csomagjaid állapotát. A nyomkövetés természetesen a vásárlóidnak is elérhető.'
         />

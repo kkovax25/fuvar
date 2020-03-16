@@ -14,7 +14,9 @@ class Header extends Component {
         <div className='header_button'><p>Vedd fel velünk a kapcsoaltot</p></div>
        </div>
        <div className='header_deliver'>
-         <img src='/img/delivery.svg' alt='delivery'/>
+         <img src='img/illustration.png'
+     srcset='img/illustration@2x.png 2x,
+             img/illustration@3x.png 3x' alt='delivery'/>
        </div>
     </div> );
   }
