@@ -2,6 +2,8 @@ $border: 1px solid black;
 $mainBgc: #ffffff;
 $greyBgc:  #f2f5f9;
 $green: #19c365;
+$titleColor: #131313;
+$descriptionColor: #303030;
 
 @mixin flex($direction) {
   display: flex;

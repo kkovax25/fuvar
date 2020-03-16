@@ -1,0 +1,46 @@
+@import '../../SassVariables/variables';
+
+.card_cont {
+  height: auto;
+  width: 328px;
+  margin-bottom: 66px;
+  margin-right: 40px;
+  // border: $border;
+  .img_cont {
+    text-align: center;
+    margin-bottom: 25px;
+    img {
+      height: 48px;
+      width: 48px;
+    }
+  }
+  .card_title {
+    width: auto;
+    height: auto;
+    font-family: ProximaNova;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 auto;
+    color: $titleColor;
+    margin-bottom: 8px;
+  }
+  .card_desc {
+    width: 328px;
+    height: 22px;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: $descriptionColor;
+    margin: 0;
+  }
+}
