@@ -1,8 +1,149 @@
 @import '../../SassVariables/variables';
 
-.footer_cont{
+.footer_cont {
   width: 1280px;
   height: 467px;
-  background-color: $mainBgc;
-  border: $border;
+  background-color: $greyBgc;
+
+  .list {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 48px;
+    .form_cont {
+      margin-top: 64px;
+      margin-right: 100px;
+      margin-left: 188px;
+    }
+    .label_cont {
+      margin-bottom: 18px;
+      margin-left: 2px;
+    }
+    label {
+      width: 196px;
+      height: 22px;
+      font-family: ProximaNova;
+      font-size: 16px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #131313;
+    }
+    .input_cont {
+      display: flex;
+      flex-direction: row;
+      width: 344px;
+      height: 44px;
+      border-radius: 4px;
+      border: solid 1px #e0e0e0;
+      padding: 0;
+      background-color: #ffffff;
+      input {
+        width: 240px;
+        border: none;
+      }
+      .subscribe {
+        width: 96px;
+        height: 32px;
+        border-radius: 4px;
+        background-color: #19c365;
+        margin: 6px 6px 6px 0;
+        .subs_text{
+          width: 72px;
+          height: 16px;
+          font-family: ProximaNova;
+          font-size: 13px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #ffffff;
+          margin: 7px 12px 9px 12px;
+        }
+      }
+    }
+  }
+  .list:first-child {
+    margin-left: 100px;
+  }
+
+  .languages {
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
+    .icon {
+      width: 16px;
+      height: 12px;
+      object-fit: contain;
+      margin: 3px 0;
+    }
+
+    .desc {
+      width: auto;
+      height: 18px;
+      font-family: ProximaNova;
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #303030;
+      margin: 0 16px 0 8px;
+    }
+    .cro {
+      margin-right: 0;
+    }
+    .company {
+      width: 229px;
+      height: 18px;
+      font-family: ProximaNova;
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      text-align: right;
+      color: #919191;
+      margin: 0;
+      margin-left: 615px;
+    }
+  }
+
+  .divider {
+    width: 1080px;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 48px 100px;
+  }
+
+  .bottom {
+    margin: 0 100px;
+    height: 49px;
+
+    .barion {
+      width: 208px;
+      height: 25px;
+      object-fit: contain;
+      margin: 7px 493px 17px 0;
+    }
+    .hiventures {
+      width: 181px;
+      height: 40px;
+      object-fit: contain;
+      margin: 0 48px 9px 0;
+    }
+    .new_szechenyi_logo {
+      width: 150px;
+      height: 49px;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+    }
+  }
 }

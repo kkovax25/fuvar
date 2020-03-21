@@ -1,13 +1,7 @@
 $border: 0px solid black;
+$border2: 1px solid red;
 $mainBgc: #ffffff;
 $greyBgc:  #f2f5f9;
 $green: #19c365;
 $titleColor: #131313;
 $descriptionColor: #303030;
-
-@mixin flex($direction) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: $direction;
-}
