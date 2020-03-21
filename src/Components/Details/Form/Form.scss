@@ -1,0 +1,52 @@
+@import '../../../SassVariables/variables';
+
+.form_cont {
+  border: $border;
+  width: 344px;
+  height: 96px;
+  margin-right: 24px;
+}
+.form_cont:nth-child(even){
+  margin-right: 0px;
+}
+.label_cont{
+  width: 344px;
+  height: 18px;
+  font-family: ProximaNova;
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: $descriptionColor;
+  margin-bottom: 4px;
+}
+
+.input_cont{
+  margin-bottom: 26px;
+  input{
+    width: 344px;
+    height: 44px;
+    border-radius: 4px;
+    border: solid 1px #e0e0e0;
+    padding: 0;
+    background: #F9F9F9;
+  }
+}
+
+
+::placeholder,input[value]{
+  font-family: ProximaNova;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  color: #919191;
+}
+::placeholder{
+  padding: 12px 156px 10px 16px;
+
+}
