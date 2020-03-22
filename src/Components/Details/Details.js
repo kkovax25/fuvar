@@ -21,7 +21,7 @@ class Details extends Component {
     }
   }
   showState = e => {
-    // let url = 'the_dummy_link_for_post';
+    // let url = 'the_link_for_post';
     e.preventDefault();
     console.log(this.state);
 

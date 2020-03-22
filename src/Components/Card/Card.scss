@@ -3,9 +3,7 @@
 .card_cont {
   height: auto;
   width: 328px;
-  margin-bottom: 66px;
-  margin-right: 40px;
-  // border: $border;
+  margin: 0 40px 66px 0;
   .img_cont {
     text-align: center;
     margin-bottom: 25px;
@@ -17,7 +15,7 @@
   .card_title {
     width: auto;
     height: auto;
-    font-family: ProximaNova;
+    font-family: $mainFont;
     font-size: 18px;
     font-weight: bold;
     font-stretch: normal;
@@ -32,7 +30,7 @@
   .card_desc {
     width: 328px;
     height: 22px;
-    font-family: ProximaNova;
+    font-family: $mainFont;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;

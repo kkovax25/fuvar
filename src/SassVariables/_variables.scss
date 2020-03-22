@@ -1,7 +1,13 @@
 $border: 0px solid black;
 $border2: 1px solid red;
 $mainBgc: #ffffff;
-$greyBgc:  #f2f5f9;
+$greyBgc: #f2f5f9;
 $green: #19c365;
 $titleColor: #131313;
 $descriptionColor: #303030;
+$mainFont: ProximaNova;
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: row;
+}

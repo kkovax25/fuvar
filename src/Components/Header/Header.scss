@@ -4,48 +4,46 @@
   width: 1280px;
   height: 528px;
   background-color: $greyBgc;
-  border: $border;
-  display: flex;
-  flex-direction: row;
+  @include flex(row);
   .header_textPart {
     margin: 96px 24px 96px 100px;
 
     .header_title {
       width: 620px;
       height: 76px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 32px;
       font-weight: bold;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.19;
       letter-spacing: normal;
-      color: #131313;
+      color: $titleColor;
     }
     .text1 {
       width: 620px;
       height: 104px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 18px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.44;
       letter-spacing: normal;
-      color: #303030;
+      color: $descriptionColor;
       margin: 16px 0;
     }
     .text2 {
       width: 620px;
       height: 26px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 18px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.44;
       letter-spacing: normal;
-      color: #303030;
+      color: $descriptionColor;
       margin-bottom: 48px;
     }
     .header_button {
@@ -56,7 +54,7 @@
       .header_button_desc {
         width: 215px;
         height: 19px;
-        font-family: ProximaNova;
+        font-family: $mainFont;
         font-size: 16px;
         font-weight: bold;
         font-stretch: normal;

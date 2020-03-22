@@ -6,11 +6,10 @@
   margin: 96px auto 0;
   border-radius: 4px;
   background-color: $greyBgc;
-  border: $border;
   .companies_title {
     width: 164px;
     height: 30px;
-    font-family: ProximaNova;
+    font-family: $mainFont;
     font-size: 24px;
     font-weight: bold;
     font-stretch: normal;
@@ -25,7 +24,7 @@
   .companies_desc {
     width: 712px;
     height: 44px;
-    font-family: ProximaNova;
+    font-family: $mainFont;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
@@ -33,10 +32,10 @@
     line-height: 1.47;
     letter-spacing: normal;
     text-align: center;
-    color: #303030;
+    color: $descriptionColor;
     margin: 4px auto;
   }
-  .companies_pic_cont{
+  .companies_pic_cont {
     margin: 48px auto 64px;
     .tnt {
       margin: 0 96px 0 221px;
@@ -54,7 +53,6 @@
       width: 186px;
       height: 50px;
       object-fit: contain;
-     
     }
   }
 }

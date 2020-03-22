@@ -2,17 +2,14 @@
 
 .details_cont {
   margin: 64px auto 0;
-  border: $border;
   .form_flex_cont {
     width: auto;
     height: auto;
-    // border: 1px solid red;
-    display: flex;
-    flex-direction: row;
+    @include flex(row);
     flex-wrap: wrap;
     margin: 46px 284px 0;
   }
-  .submit_button{
+  .submit_button {
     width: 0;
     height: 0;
     border: 0;
@@ -22,16 +19,16 @@
     width: 161px;
     height: 44px;
     border-radius: 4px;
-    background-color: #19c365;
+    background-color: $green;
     margin-left: 284px;
     cursor: pointer;
-    &:hover{
+    &:hover {
       opacity: 0.9;
     }
-    .inner_text{
+    .inner_text {
       width: 121px;
       height: 17px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 14px;
       font-weight: bold;
       font-stretch: normal;
@@ -39,7 +36,7 @@
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: #ffffff;
+      color: $mainBgc;
       padding: 13px 20px 14px 20px;
     }
   }

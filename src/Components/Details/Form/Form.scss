@@ -1,18 +1,17 @@
 @import '../../../SassVariables/variables';
 
 .form_cont {
-  border: $border;
   width: 344px;
   height: 96px;
   margin-right: 24px;
 }
-.form_cont:nth-child(even){
+.form_cont:nth-child(even) {
   margin-right: 0px;
 }
-.label_cont{
+.label_cont {
   width: 344px;
   height: 18px;
-  font-family: ProximaNova;
+  font-family: $mainFont;
   font-size: 13px;
   font-weight: 600;
   font-stretch: normal;
@@ -23,21 +22,21 @@
   margin-bottom: 4px;
 }
 
-.input_cont{
+.input_cont {
   margin-bottom: 26px;
-  input{
+  input {
     width: 344px;
     height: 44px;
     border-radius: 4px;
     border: solid 1px #e0e0e0;
     padding: 0;
-    background: #F9F9F9;
+    background: #f9f9f9;
   }
 }
 
-
-::placeholder,input[value]{
-  font-family: ProximaNova;
+::placeholder,
+input[value] {
+  font-family: $mainFont;
   font-size: 15px;
   font-weight: normal;
   font-stretch: normal;
@@ -46,7 +45,6 @@
   letter-spacing: normal;
   color: #919191;
 }
-::placeholder{
+::placeholder {
   padding: 12px 156px 10px 16px;
-
 }

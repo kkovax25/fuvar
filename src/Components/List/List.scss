@@ -6,33 +6,32 @@
   h3 {
     width: auto;
     height: 22px;
-    font-family: ProximaNova;
+    font-family: $mainFont;
     font-size: 16px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.38;
     letter-spacing: normal;
-    color: #131313;
-    margin-top: 0;
-    margin-bottom: 18px;
+    color: $titleColor;
+    margin: 0 0 18px 0;
   }
-  ul{
+  ul {
     margin: 0;
     padding: 0;
   }
-  li{
+  li {
     list-style-type: none;
     width: auto;
     height: 22px;
-    font-family: ProximaNova;
+    font-family: $mainFont;
     font-size: 15px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.47;
     letter-spacing: normal;
-    color: #303030;
+    color: $descriptionColor;
     margin-bottom: 8px;
   }
 }

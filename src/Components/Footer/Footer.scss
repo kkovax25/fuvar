@@ -6,40 +6,35 @@
   background-color: $greyBgc;
 
   .list {
-    display: flex;
-    flex-direction: row;
+    @include flex(row);
     height: auto;
     margin-bottom: 48px;
     .form_cont {
-      margin-top: 64px;
-      margin-right: 100px;
-      margin-left: 188px;
+      margin: 64px 100px 0 188px;
     }
     .label_cont {
-      margin-bottom: 18px;
-      margin-left: 2px;
+      margin: 0 0 18px 2px;
     }
     label {
       width: 196px;
       height: 22px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 16px;
       font-weight: bold;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.38;
       letter-spacing: normal;
-      color: #131313;
+      color: $titleColor;
     }
     .input_cont {
-      display: flex;
-      flex-direction: row;
+      @include flex(row);
       width: 344px;
       height: 44px;
       border-radius: 4px;
       border: solid 1px #e0e0e0;
       padding: 0;
-      background-color: #ffffff;
+      background-color: $mainBgc;
       input {
         width: 240px;
         border: none;
@@ -48,12 +43,12 @@
         width: 96px;
         height: 32px;
         border-radius: 4px;
-        background-color: #19c365;
+        background-color: $green;
         margin: 6px 6px 6px 0;
-        .subs_text{
+        .subs_text {
           width: 72px;
           height: 16px;
-          font-family: ProximaNova;
+          font-family: $mainFont;
           font-size: 13px;
           font-weight: bold;
           font-stretch: normal;
@@ -73,8 +68,7 @@
 
   .languages {
     height: 18px;
-    display: flex;
-    flex-direction: row;
+    @include flex(row);
     margin: 0 100px;
     .icon {
       width: 16px;
@@ -86,14 +80,14 @@
     .desc {
       width: auto;
       height: 18px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 13px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.38;
       letter-spacing: normal;
-      color: #303030;
+      color: $descriptionColor;
       margin: 0 16px 0 8px;
     }
     .cro {
@@ -102,7 +96,7 @@
     .company {
       width: 229px;
       height: 18px;
-      font-family: ProximaNova;
+      font-family: $mainFont;
       font-size: 13px;
       font-weight: normal;
       font-stretch: normal;
