@@ -1,4 +1,5 @@
 @import '../../SassVariables/variables';
+@import '../../SassVariables/mediaVariables';
 
 .footer_cont {
   width: 1280px;
@@ -11,6 +12,12 @@
     margin-bottom: 48px;
     .form_cont {
       margin: 64px 100px 0 188px;
+      @include xl {
+        margin-left: 90px;
+      }
+      @include lg{
+        margin-left: 20px;
+      }
     }
     .label_cont {
       margin: 0 0 18px 2px;
@@ -75,6 +82,7 @@
       height: 12px;
       object-fit: contain;
       margin: 3px 0;
+      
     }
 
     .desc {
@@ -107,6 +115,9 @@
       color: #919191;
       margin: 0;
       margin-left: 615px;
+      @include lg {
+        margin-left: 35%
+      }
     }
   }
 
@@ -115,6 +126,9 @@
     height: 1px;
     background-color: #e0e0e0;
     margin: 48px 100px;
+    @include lg{
+      width: auto;
+    }
   }
 
   .bottom {
@@ -126,6 +140,12 @@
       height: 25px;
       object-fit: contain;
       margin: 7px 493px 17px 0;
+      @include xl {
+       margin-right: 40%
+      }
+      @include lg {
+        margin-right: 30%
+      }
     }
     .hiventures {
       width: 181px;

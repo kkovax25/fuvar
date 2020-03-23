@@ -1,12 +1,16 @@
 @import '../../SassVariables/variables';
-
+@import '../../SassVariables/mediaVariables';
 .header_cont {
   width: 1280px;
   height: 528px;
   background-color: $greyBgc;
   @include flex(row);
+
   .header_textPart {
     margin: 96px 24px 96px 100px;
+    @include lg{
+      margin-left: 20px
+    }
 
     .header_title {
       width: 620px;
@@ -68,8 +72,14 @@
     }
   }
   .header_deliver {
-    width: 436px;
-    height: 436px;
     margin: 52px 100px 40px 24px;
+    .header_pic {
+      width: 436px;
+      height: 436px;
+      object-fit: contain;
+      @include xl {
+        max-width: 100%;
+      }
+    }
   }
 }

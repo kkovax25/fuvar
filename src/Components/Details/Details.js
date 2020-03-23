@@ -17,9 +17,9 @@ class Details extends Component {
       email: '',
       weblink: '',
       packSize: '',
-      frequency: '',
+      frequency: ''
     }
-  }
+  };
   showState = e => {
     // let url = 'the_link_for_post';
     e.preventDefault();
@@ -76,11 +76,13 @@ class Details extends Component {
               onChange={this.onChange}
             />
           </div>
-          <button className='submit_button' type='submit'>
-            <div className='submit' type='submit' onSubmit={this.showState}>
-              <p className='inner_text'>Kapcsolat felvétele</p>
-            </div>
-          </button>
+          <div className='button_wrapper'>
+            <button className='submit_button' type='submit'>
+              <div className='submit' type='submit' onSubmit={this.showState}>
+                <p className='inner_text'>Kapcsolat felvétele</p>
+              </div>
+            </button>
+          </div>
         </form>
       </div>
     );

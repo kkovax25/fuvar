@@ -1,13 +1,26 @@
 @import '../../SassVariables/variables';
+@import '../../SassVariables/mediaVariables';
 
 .details_cont {
   margin: 64px auto 0;
+  height: auto;
+
   .form_flex_cont {
     width: auto;
     height: auto;
     @include flex(row);
     flex-wrap: wrap;
     margin: 46px 284px 0;
+    @include xl{
+      margin: 46px auto 0;
+      text-align: center;
+      height: 100%;
+      width: auto;
+      margin-left: 70px
+    }
+    @include lg {
+      margin-left: 20px;
+    }
   }
   .submit_button {
     width: 0;

@@ -1,4 +1,5 @@
 @import '../../SassVariables/variables';
+@import '../../SassVariables/mediaVariables';
 
 .list_cont {
   width: auto;
@@ -19,6 +20,9 @@
   ul {
     margin: 0;
     padding: 0;
+    @include xl {
+      width: auto;
+    }
   }
   li {
     list-style-type: none;

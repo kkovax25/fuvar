@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Header.scss';
-// import Button from '../Button/Button';
 
 class Header extends Component {
   state = {  }
@@ -16,7 +15,7 @@ class Header extends Component {
        <div className='header_deliver'>
          <img src='img/header/illustration.png'
      srcset='img/header/illustration@2x.png 2x,
-             img/header/illustration@3x.png 3x' alt='delivery'/>
+             img/header/illustration@3x.png 3x' alt='delivery' className='header_pic'/>
        </div>
     </div> );
   }
