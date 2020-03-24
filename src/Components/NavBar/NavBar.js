@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './NavBar.scss';
 
 class NavBar extends Component {
-  state = {};
   render() {
     return (
       <div className='navBar_cont'>
@@ -13,7 +12,11 @@ class NavBar extends Component {
         <div className='options'>
           <img src='img/navbar/help.svg' alt='Help' className='Help navicon' />
           <p className='desc'>Így működik</p>
-          <img src='img/navbar/add-box.svg' alt='Add-box' className='Add-Box navicon' />
+          <img
+            src='img/navbar/add-box.svg'
+            alt='Add-box'
+            className='Add-Box navicon'
+          />
           <p className='desc'>Ajánlatkérés</p>
           <img src='img/navbar/tree.svg' alt='Tree' className='Tree navicon' />
           <p className='desc'>Környezetünkért</p>

@@ -16,9 +16,7 @@ class Selector extends Component {
             name={this.props.name}
             required
           >
-            <option>
-              Kérlek válassz...
-            </option>
+            <option>Kérlek válassz...</option>
             <option>S</option>
             <option>M</option>
             <option>L</option>

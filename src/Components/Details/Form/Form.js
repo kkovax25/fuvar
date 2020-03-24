@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import InputMask from 'react-input-mask';
 import './Form.scss';
 
 class Form extends Component {
@@ -9,14 +10,14 @@ class Form extends Component {
           <label>{this.props.title}</label>
         </div>
         <div className='input_cont'>
-          <input
-            type='text'
+          <InputMask
+            mask={this.props.mask}
             name={this.props.name}
-            placeholder={this.props.title}
-            value={this.props.value}
             onChange={this.props.onChange}
-            required
+            value={this.props.value}
+            placeholder={this.props.title}
           />
+          <span className='error_msg'>{this.props.errorMsg}</span>
         </div>
       </div>
     );

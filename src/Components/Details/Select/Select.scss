@@ -6,19 +6,10 @@
   width: 344px;
   height: 96px;
   margin-right: 24px;
-  @include lg {
-    width: 270px;
-  }
 }
 
 .select_cont:nth-child(even) {
   margin-right: 0px;
-  @include xl {
-    margin-right: 20px;
-  }
-  @include lg {
-    margin: 0 auto;
-  }
 }
 .label_cont {
   width: 344px;
@@ -32,9 +23,6 @@
   letter-spacing: normal;
   color: $descriptionColor;
   margin-bottom: 4px;
-  @include lg{
-    width: 270px;
-  }
 }
 select {
   appearance: none;
@@ -54,9 +42,6 @@ select {
   letter-spacing: normal;
   color: #919191;
   padding: 12px 156px 10px 16px;
-  @include lg {
-    width: 270px;
-  }
 }
 *:focus {
   outline: none;

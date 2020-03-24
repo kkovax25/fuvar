@@ -47,9 +47,8 @@ class Footer extends Component {
                 onChange={this.onChange}
               />
               <div className='subscribe'>
-              <p className='subs_text'>Feliratkozás</p>
-            </div>
-
+                <p className='subs_text'>Feliratkozás</p>
+              </div>
             </div>
           </div>
         </div>

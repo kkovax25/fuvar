@@ -11,46 +11,45 @@
     @include flex(row);
     flex-wrap: wrap;
     margin: 46px 284px 0;
-    @include xl{
-      margin: 46px auto 0;
-      text-align: center;
+
+    @include xl {
+      margin: 46px 200px 0;
       height: 100%;
-      width: auto;
-      margin-left: 70px
     }
     @include lg {
-      margin-left: 20px;
+      margin: 46px 150px 0;
     }
   }
   .submit_button {
-    width: 0;
-    height: 0;
-    border: 0;
-    padding: 0;
+    border: 1px solid;
+    background: #19c365;
+    height: 100%;
+    width: 100%;
+    font-family: $mainFont;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $mainBgc;
+    border-radius: 4px;
+    cursor: pointer;
   }
   .submit {
+    border-radius: 4px;
     width: 161px;
     height: 44px;
-    border-radius: 4px;
-    background-color: $green;
     margin-left: 284px;
-    cursor: pointer;
     &:hover {
       opacity: 0.9;
     }
-    .inner_text {
-      width: 121px;
-      height: 17px;
-      font-family: $mainFont;
-      font-size: 14px;
-      font-weight: bold;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      color: $mainBgc;
-      padding: 13px 20px 14px 20px;
+    @include xl {
+      margin-left: 200px;
+    }
+    @include lg {
+      margin-left: 150px;
     }
   }
 }

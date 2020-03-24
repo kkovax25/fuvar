@@ -1,5 +1,6 @@
 @import '../../SassVariables/variables';
 @import '../../SassVariables/mediaVariables';
+
 .header_cont {
   width: 1280px;
   height: 528px;
@@ -8,8 +9,8 @@
 
   .header_textPart {
     margin: 96px 24px 96px 100px;
-    @include lg{
-      margin-left: 20px
+    @include lg {
+      margin-left: 20px;
     }
 
     .header_title {

@@ -1,10 +1,11 @@
 @import '../../SassVariables/variables';
 @import '../../SassVariables/mediaVariables';
+
 .card_cont {
   height: auto;
   width: 328px;
   margin: 0 40px 66px 0;
-  @include xl{
+  @include xl {
     margin-bottom: 76px;
   }
   .img_cont {

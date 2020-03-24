@@ -5,7 +5,7 @@
   width: 1280px;
   height: 467px;
   background-color: $greyBgc;
-
+  
   .list {
     @include flex(row);
     height: auto;
@@ -16,7 +16,7 @@
         margin-left: 90px;
       }
       @include lg{
-        margin-left: 20px;
+        margin-left: 15px;
       }
     }
     .label_cont {

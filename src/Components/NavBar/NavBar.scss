@@ -13,8 +13,8 @@
     margin: 33px 24px 33px 100px;
     width: 75px;
     height: 14px;
-    @include lg{
-      margin-left: 20px
+    @include lg {
+      margin-left: 20px;
     }
     .Logo {
       object-fit: contain;
