@@ -1,0 +1,42 @@
+{
+  "welcomeText": "Fókuszálj az igazán fontos dolgokra, a szállítást bízd ránk!",
+  "headerDesc": "Képzeld csak el, mennyit spórolnál, ha webáruházad szállítási feladatait más intézné, ráadásul sokkal olcsóbb szállítási díjakon! A fuvar.hu küldetése az adott feladathoz tartozó legokosabb szállítási megoldás megtalálása, az üres rakterek versenyeztetésével.",
+  "headerP": "Mi ehhez értünk a legjobban. Segíthetünk benne?",
+  "middleHead": "Hogy működik a gyakorlatban?",
+  "middleCards":[
+    {
+      "title": "Kedvező ár",
+      "desc": "Az ország határain belül akár 750 Ft-tól.",
+      "img": "/img/middleSvg/cheap.svg"
+    },
+    {
+      "title": "Biztosítás",
+      "desc": "A feladott küldemények minden esetben értékbiztosítással rendelkeznek.",
+      "img":"/img/middleSvg/insurance.svg"
+    },
+    {
+      "title": "Utánvét kezelése",
+      "desc": "Az utánvét begyűjtése után 72 órán belül hozzájutsz a pénzedhez.",
+      "img":"/img/middleSvg/cod.svg"
+    },
+    {
+      "title": "Egyszerű integráció",
+      "desc": "A szállítási igényeid átadása bármilyen webshop motorba egyszerűen integrálható. Mindezek megvalósításához technikai segítséget is nyújtunk.",
+      "img":"/img/middleSvg/integration.svg"
+    },
+    {
+      "title": "Átlátható adminisztrációs felület",
+      "desc": "Kövesd naprakészen csomagjaid állapotát. A nyomkövetés természetesen a vásárlóidnak is elérhető.",
+      "img":"/img/middleSvg/invoice.svg" 
+    },
+    {
+      "title": "Átlátható számlázás",
+      "desc": "Kövesd naprakészen csomagjaid állapotát. A nyomkövetés természetesen a vásárlóidnak is elérhető.",
+      "img":"/img/middleSvg/admin.svg"
+    }
+  ],
+  "companiesHeader": "Alvállalkózóink",
+  "companiesDesc": "Minden egyes szállítási megbízásánál az alábbi szolgáltatók közül választhatsz. (Természetesen Neked elég csak velünk szerződnöd, a többit mi intézzük)",
+  "formHeader": "Érdekelnek a részletek?",
+  "formDesc": "Add meg elérhetőségeinket és kollégánk hamarosan felveszi veled a kapcsolatot."
+}

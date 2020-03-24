@@ -55,25 +55,25 @@ class Footer extends Component {
         <div className='languages'>
           <img
             src='img/footer/hungary.png'
-            srcset='img/footer/hungary@2x.png 2x,
+            srcSet='img/footer/hungary@2x.png 2x,
              img/footer/hungary@3x.png 3x'
-            class='hungary icon'
+            className='hungary icon'
             alt='hungary'
           />
           <p className='hun desc'>Magyar</p>
           <img
             src='img/footer/united-kingdom.png'
-            srcset='img/footer/united-kingdom@2x.png 2x,
+            srcSet='img/footer/united-kingdom@2x.png 2x,
              img/footer/united-kingdom@3x.png 3x'
-            class='united-kingdom icon'
+            className='united-kingdom icon'
             alt='england'
           />
           <p className='eng desc'>English</p>
           <img
             src='img/footer/croatia.png'
-            srcset='img/footer/croatia@2x.png 2x,
+            srcSet='img/footer/croatia@2x.png 2x,
              img/footer/croatia@3x.png 3x'
-            class='croatia icon'
+            className='croatia icon'
             alt='croatia'
           />
           <p className='cro desc'>Hrvatski</p>
@@ -83,23 +83,23 @@ class Footer extends Component {
         <div className='bottom'>
           <img
             src='img/footer/barion.png'
-            srcset='img/footer/barion@2x.png 2x,
+            srcSet='img/footer/barion@2x.png 2x,
              img/footer/barion@3x.png 3x'
-            class='barion'
+            className='barion'
             alt='payments'
           />
           <img
             src='img/footer/hiventures.png'
-            srcset='img/footer/hiventures@2x.png 2x,
+            srcSet='img/footer/hiventures@2x.png 2x,
              img/footer/hiventures@3x.png 3x'
-            class='hiventures'
+            className='hiventures'
             alt='hiventures'
           />
           <img
             src='img/footer/new-szechenyi-logo.png'
-            srcset='img/footer/new-szechenyi-logo@2x.png 2x,
+            srcSet='img/footer/new-szechenyi-logo@2x.png 2x,
              img/footer/new-szechenyi-logo@3x.png 3x'
-            class='new_szechenyi_logo'
+            className='new_szechenyi_logo'
             alt='szecheny_logo'
           />
         </div>

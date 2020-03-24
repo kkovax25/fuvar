@@ -16,6 +16,7 @@ class Form extends Component {
             onChange={this.props.onChange}
             value={this.props.value}
             placeholder={this.props.title}
+            required
           />
           <span className='error_msg'>{this.props.errorMsg}</span>
         </div>

@@ -11,6 +11,9 @@
 .form_cont:nth-child(even) {
   margin-right: 0px;
 }
+input:invalid {
+  box-shadow: none;
+}
 .label_cont {
   width: 344px;
   height: 18px;
@@ -31,6 +34,7 @@
 .input_cont {
   margin-bottom: 26px;
   input {
+    box-sizing: border-box;
     width: 344px;
     height: 44px;
     border-radius: 4px;

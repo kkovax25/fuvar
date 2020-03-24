@@ -11,7 +11,7 @@ const initialState = {
   weblink: '',
   packSize: '',
   frequency: '',
-  error: '',
+  formError: '',
   emailError: ''
 };
 class Details extends Component {
@@ -43,12 +43,20 @@ class Details extends Component {
 
   validate = () => {
     let emailError = '';
+    let formError ='';
     if (!this.state.email.includes('@') || !this.state.email.includes('.')) {
-      emailError = 'You have entered an invalid email address!';
+      emailError = 'Kérjük adjon meg egy helyes email címet!';
     }
     if (emailError) {
       this.setState({ emailError });
       return false;
+    }
+    if(!this.state.frequency || !this.state.packSize === 'Kérlek válassz...' || undefined){
+      formError='Kérem válaszzon az opciók közül';
+    }
+    if(formError){
+      this.setState({formError})
+      return false
     }
     return true;
   };
@@ -88,6 +96,7 @@ class Details extends Component {
                 name='packSize'
                 value={this.state.packSize}
                 onChange={this.onChange}
+                errorMsg={this.state.formError}
               />
               <Form
                 title='Email cím:'
@@ -101,6 +110,7 @@ class Details extends Component {
                 name='frequency'
                 value={this.state.frequency}
                 onChange={this.onChange}
+                errorMsg={this.state.formError}
               />
             </div>
             <div className='button_wrapper'>
